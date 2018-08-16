@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<h2>Display Image</h2>
+	Image ID:
+	<input type="text" id="field1" value="">
+	<br>
+	<br>
+	<button onclick="myFunction()">Display image</button>
+	<br>
+	<br>
+
+	<dev id ="fDev"> 
+		</dev>
+
+	<script>
+		function myFunction() {
+
+			var url = "http://localhost:8080/RestEasy-UP-DOWN-Image-File/resteasy/fileservice/download/image/"
+					+ document.getElementById("field1").value;
+			
+			document.getElementById("fDev").innerHTML="<img src="  + url + " alt='Invalid image ID' style='width: 500px; height: 600px;'> ";
+
+		}
+	</script>
+
+
+</body>
+</html>

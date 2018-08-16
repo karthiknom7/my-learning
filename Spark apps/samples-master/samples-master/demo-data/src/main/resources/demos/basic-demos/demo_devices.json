@@ -1,0 +1,76 @@
+{
+  "devices":[
+    {
+      "name":"DHT11 Demo Device",
+      "type":"HVAC",
+      "additionalInfo":"Demo device that is used in sample applications that upload data from DHT11 temperature and humidity sensor"
+    },
+    {
+      "name":"Raspberry Pi Demo Device",
+      "type":"HVAC",
+      "additionalInfo":"Demo device that is used in Raspberry Pi GPIO control sample application"
+    },
+    {
+      "name":"LinkIt One Demo Device",
+      "type":"HVAC",
+      "additionalInfo":"Demo device that is used in sample applications for LinkIt One"
+    },
+    {
+      "name":"Arduino UNO Demo Device",
+      "type":"HVAC",
+      "additionalInfo":"Demo device that is used in sample applications for Arduino UNO"
+    },
+    {
+      "name":"ESP8266 Demo Device",
+      "type":"HVAC",
+      "additionalInfo":"Demo device that is used in sample applications for ESP8266"
+    },
+    {
+      "name":"Test Device A1",
+      "type":"HVAC",
+      "additionalInfo":null
+    },
+    {
+      "name":"Test Device A2",
+      "type":"HVAC",
+      "additionalInfo":null
+    },
+    {
+      "name":"Test Device A3",
+      "type":"HVAC",
+      "additionalInfo":null
+    },
+    {
+      "name":"Test Device B1",
+      "type":"HVAC",
+      "additionalInfo":null
+    },
+    {
+      "name":"Test Device C1",
+      "type":"HVAC",
+      "additionalInfo":null
+    }
+  ],
+  "customerDevices": [
+    {
+      "deviceName": "Test Device A1",
+      "customerTitle": "Customer A"
+    },
+    {
+      "deviceName": "Test Device A2",
+      "customerTitle": "Customer A"
+    },
+    {
+      "deviceName": "Test Device A3",
+      "customerTitle": "Customer A"
+    },
+    {
+      "deviceName": "Test Device B1",
+      "customerTitle": "Customer B"
+    },
+    {
+      "deviceName": "Test Device C1",
+      "customerTitle": "Customer C"
+    }
+  ]
+}

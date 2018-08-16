@@ -1,0 +1,8 @@
+target/
+.zedstate
+env.sh
+log.txt
+roadmap.md
+.settings/
+.project
+.classpath
