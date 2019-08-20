@@ -1,4 +1,4 @@
-package com.harman.kconsumer;
+package com.kk.kconsumer;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

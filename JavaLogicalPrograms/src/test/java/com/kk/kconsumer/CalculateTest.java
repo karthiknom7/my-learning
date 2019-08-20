@@ -1,4 +1,4 @@
-package com.harman.kconsumer;
+package com.kk.kconsumer;
 
 import org.junit.After;
 import org.junit.AfterClass;

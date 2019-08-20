@@ -1,4 +1,4 @@
-package com.harman.kconsumer;
+package com.kk.kconsumer;
 
 import org.junit.AfterClass;
 import org.junit.Assert;
@@ -16,7 +16,7 @@ public class CalculateTwoTest {
 	
 	@Test
 	public void findMaxTest(){
-		Assert.assertEquals(10, Calculat.findMax(new int[] {4,6,7,8}));
+		Assert.assertEquals(8, Calculat.findMax(new int[] {4,6,7,8}));
 	}
 	
 	@Test
