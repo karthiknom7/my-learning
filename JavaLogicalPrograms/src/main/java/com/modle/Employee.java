@@ -8,6 +8,12 @@ public class Employee {
     private BigDecimal salary;
 
 
+    public Employee(Integer id, String name, BigDecimal salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
+
     public Integer getId() {
         return id;
     }
