@@ -8,13 +8,7 @@ import java.nio.charset.StandardCharsets;
 public class JMP2 {
 
 	public static void main(String[] args) throws IOException {
-		/*InputStreamReader reader = new InputStreamReader(System.in, StandardCharsets.UTF_8);
-		BufferedReader in = new BufferedReader(reader);
-		String line;
-		while ((line = in.readLine()) != null) {*/
-			// System.out.println(line);
-
-		String line = "1122345667";
+		String line = "11223456677";
 			String outPut = "";
 			for (int i = 0; i < line.length(); i++) {
 				if (i + 1 == line.length()) {

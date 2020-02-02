@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-
+/*Find common suffix for given String*/
 public class JPM {
 
 	
@@ -19,7 +19,6 @@ public class JPM {
 				    String word2 = words[1].trim();
 				    
 				    String commonSuffix = "";
-				    
 				    int wordOnelenght = word1.length();
 				    int wordTwoLenght = word2.length();
 				    

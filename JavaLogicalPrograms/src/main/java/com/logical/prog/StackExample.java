@@ -11,6 +11,7 @@ public class StackExample {
 		stack.push(190);
 		System.out.println(stack);
 		stack.push(300);
+		System.out.println(stack);
 		System.out.println("Pop:" + stack.pop());
 		System.out.println("Pop:" + stack.pop());
 		System.out.println(stack);
