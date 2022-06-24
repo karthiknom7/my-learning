@@ -17,7 +17,7 @@
 	</repositories>
 
 	<properties>
-		<resteasy.version>3.0.8.Final</resteasy.version>
+		<resteasy.version>3.14.0.Final</resteasy.version>
 		<resteasy.scope>compile</resteasy.scope> <!-- compile(Tomcat) / provided(JBoss) -->
 		<compileSource>1.7</compileSource>
 		<maven.compiler.target>1.7</maven.compiler.target>
